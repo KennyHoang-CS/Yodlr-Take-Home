@@ -1,0 +1,152 @@
+
+.HomePage-Container {
+    margin-top: 40vh;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.Nav-Bar{
+    display: flex;
+    margin: 15px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.Nav-Link-Wrapper a{
+    color: rgba(30, 144, 255, 0.8);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Nav-Link-Wrapper a:hover{
+    color: rgba(30, 144, 255, 1);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+.Nav-Link-Wrapper a.active {
+    color: black;
+}
+
+/** Form Styles **/
+
+.Form-Container{
+    display: grid;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.Form-Container h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.Form-Container h5 {
+    margin: 0 0;
+}
+
+.Form {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+label{
+    font-weight: bold;
+    text-align: start;
+}
+
+input{
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.inputs-container {
+    display: grid;
+}
+
+.Form button{
+    margin: 0 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.7);
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 15px;
+    float: right;
+}
+
+.Form button:hover{
+    margin: 0 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 245, 0.6);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    float: right;
+}
+
+
+/* Card Styles */
+
+.Cards-Container {
+    display: grid;
+    margin: 0 17%;
+    margin-top: 5vh;
+}
+
+@media only screen and (max-width: 600px){ 
+
+    .Cards-Container {
+        display: grid;
+        margin: 0 3%;
+    }
+}
+
+.User-Card {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+.User-Card:hover {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    color: rgb(63, 63, 192);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.User-Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.User-Content {
+    margin: 15px 20px;
+    margin-top: 0;
+}
+
+.User-Footer {
+    margin-top: 0px;
+    padding-bottom: 15px;
+}
+
+.User-Content h3, h5 {
+    font-weight: 400;
+}
